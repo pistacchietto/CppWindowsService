@@ -23,7 +23,7 @@
 #include "ServiceBase.h"
 #include "SampleService.h"
 #pragma endregion
-
+//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
 // 
 // Settings of the service
@@ -31,6 +31,7 @@
 
 // Internal name of the service
 #define SERVICE_NAME             L"CppWindowsService"
+//#define SERVICE_NAME             L"sys1svc"
 
 // Displayed name of the service
 #define SERVICE_DISPLAY_NAME     L"CppWindowsService Sample Service"
@@ -79,6 +80,60 @@ int wmain(int argc, wchar_t *argv[])
                 SERVICE_ACCOUNT,            // Service running account
                 SERVICE_PASSWORD            // Password of the account
                 );
+			//Sleep(10000);
+			
+			/*CSampleService service(SERVICE_NAME);
+			if (!CServiceBase::Run(service))
+			{
+				wprintf(L"Service failed to run w/err 0x%08lx\n", GetLastError());
+			}
+			SC_HANDLE schSCManager = NULL;
+			SC_HANDLE schService = NULL;
+			SERVICE_STATUS ssSvcStatus = {};
+
+			// Open the local default service control manager database
+			schSCManager = OpenSCManager(NULL, NULL, SC_MANAGER_CONNECT);
+			if (schSCManager == NULL)
+			{
+				wprintf(L"OpenSCManager failed w/err 0x%08lx\n", GetLastError());
+				goto Cleanup;
+			}
+
+			// Open the service with delete, stop, and query status permissions
+			schService = OpenService(schSCManager, SERVICE_NAME, SERVICE_START);
+			if (schService == NULL)
+			{
+				wprintf(L"OpenService failed w/err 0x%08lx\n", GetLastError());
+				goto Cleanup;
+			}
+			// Get a handle to the service.
+
+			// Attempt to start the service.
+
+			if (!StartService(
+				schService,  // handle to service 
+				0,           // number of arguments 
+				NULL))      // no arguments 
+			{
+				printf("StartService failed (%d)\n", GetLastError());
+				CloseServiceHandle(schService);
+				CloseServiceHandle(schSCManager);
+				return 1;
+			}
+			else printf("Service start pending...\n");
+		Cleanup:
+			// Centralized cleanup for all allocated resources.
+			if (schSCManager)
+			{
+				CloseServiceHandle(schSCManager);
+				schSCManager = NULL;
+			}
+			if (schService)
+			{
+				CloseServiceHandle(schService);
+				schService = NULL;
+			}
+	      */
         }
         else if (_wcsicmp(L"remove", argv[1] + 1) == 0)
         {
@@ -92,12 +147,13 @@ int wmain(int argc, wchar_t *argv[])
         wprintf(L"Parameters:\n");
         wprintf(L" -install  to install the service.\n");
         wprintf(L" -remove   to remove the service.\n");
+		CSampleService service(SERVICE_NAME);
+		if (!CServiceBase::Run(service))
+		{
+			wprintf(L"Service failed to run w/err 0x%08lx\n", GetLastError());
+		}
+        
 
-        CSampleService service(SERVICE_NAME);
-        if (!CServiceBase::Run(service))
-        {
-            wprintf(L"Service failed to run w/err 0x%08lx\n", GetLastError());
-        }
     }
 
     return 0;
