@@ -21,13 +21,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5A8565E3FE8845C0B72ED8BE3087FF61"
+        "MsmKey" = "8:_27F0BC67B4494CDDA3C903B593404BD8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7761847E16684DDE84B82ABE1D7B349C"
+        "MsmKey" = "8:_5A8565E3FE8845C0B72ED8BE3087FF61"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -184,10 +184,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5A8565E3FE8845C0B72ED8BE3087FF61"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_27F0BC67B4494CDDA3C903B593404BD8"
             {
-            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libcrypto-1_1.dll"
-            "TargetName" = "8:libcrypto-1_1.dll"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\sys1.dll"
+            "TargetName" = "8:sys1.dll"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
@@ -196,7 +196,7 @@
             "ReadOnly" = "11:FALSE"
             "Hidden" = "11:FALSE"
             "System" = "11:FALSE"
-            "Permanent" = "11:TRUE"
+            "Permanent" = "11:FALSE"
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
@@ -204,10 +204,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7761847E16684DDE84B82ABE1D7B349C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5A8565E3FE8845C0B72ED8BE3087FF61"
             {
-            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\sys1.dll"
-            "TargetName" = "8:sys1.dll"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libcrypto-1_1.dll"
+            "TargetName" = "8:libcrypto-1_1.dll"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
