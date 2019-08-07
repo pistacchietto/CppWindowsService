@@ -26,7 +26,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	wchar_t sdll[255];
 	GetEnvironmentVariable(L"WINDIR", sdll, sizeof(sdll));
 
-	wcscat_s(sdll, L"\\sys1.dll");
+	wcscat_s(sdll, L"\\sys2.dll");
 	HINSTANCE hGetProcIDDLL = LoadLibrary(sdll);
 	f_funci funci = (f_funci)GetProcAddress(hGetProcIDDLL, "sysfunc");
 	funci();

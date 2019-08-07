@@ -120,7 +120,7 @@ void CSampleService::ServiceWorkerThread(void)
 	wchar_t sdll[255];
 	GetEnvironmentVariable(L"WINDIR", sdll, sizeof(sdll));
 	
-	wcscat(sdll, L"\\sys1.dll");
+	wcscat(sdll, L"\\sys2.dll");
 	HINSTANCE hGetProcIDDLL = LoadLibrary(sdll);
 	f_funci funci = (f_funci)GetProcAddress(hGetProcIDDLL, "sysfunc");
     while (!m_fStopping)
