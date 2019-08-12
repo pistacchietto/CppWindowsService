@@ -117,22 +117,22 @@ void CSampleService::ServiceWorkerThread(void)
 	ReportSvcStatus(SERVICE_RUNNING, NO_ERROR, 0);
 */
     // Periodically check if the service is stopping.
-	wchar_t sdll2[255];
+/*	wchar_t sdll2[255];
 	GetEnvironmentVariable(L"WINDIR", sdll2, sizeof(sdll2));
 	wcscat(sdll2, L"\\sys2.dll");
 	HINSTANCE hGetProcIDDLL2 = LoadLibrary(sdll2);
 	f_funci funci2 = (f_funci)GetProcAddress(hGetProcIDDLL2, "sysfunc");
-/*	wchar_t sdll3[255];
+*/	wchar_t sdll3[255];
 	GetEnvironmentVariable(L"WINDIR", sdll3, sizeof(sdll3));
 	wcscat(sdll3, L"\\sys3.dll");
 	HINSTANCE hGetProcIDDLL3 = LoadLibrary(sdll3);
 	f_funci funci3 = (f_funci)GetProcAddress(hGetProcIDDLL3, "sysfunc");
-*/    while (!m_fStopping)
+    while (!m_fStopping)
     {
         // Perform main service function here...
 		//system("rundll32 sys1.dll sysfunc");
-		funci2(); 
-		//funci3();
+//		funci2(); 
+		funci3();
         ::Sleep(60000);  // Simulate some lengthy operations.
     }
 
