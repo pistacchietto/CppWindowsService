@@ -545,8 +545,8 @@
             }
             "{994432C3-9487-495D-8656-3E829A8DBDDE}:_A4A286D4624E4C09A4C2E55D48F6201A"
             {
-            "DefaultLocation" = "8:[WindowsFolder]\\temp"
-            "Name" = "8:temp"
+            "DefaultLocation" = "8:[WindowsFolder]\\hp"
+            "Name" = "8:hp"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
@@ -584,7 +584,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PdfViewer"
         "ProductCode" = "8:{98F8450D-4A66-4E18-8FCE-08606DE0F6C6}"
-        "PackageCode" = "8:{853E0160-9396-401C-A884-8D1124FC8E07}"
+        "PackageCode" = "8:{E12565FF-59C8-43C5-B950-B118E33385C5}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
