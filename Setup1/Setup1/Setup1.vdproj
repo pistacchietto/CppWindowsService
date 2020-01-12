@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0E5D0C6B504E4DFBAD267408B8CDE4F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_10A9C8793F42483EA62741ED8E831159"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,12 +46,6 @@
         "Entry"
         {
         "MsmKey" = "8:_3A8549CDFEA041A18008D0F670853FC4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5123D73D7D0C4A45816C56F2053DB79B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -192,6 +192,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E5D0C6B504E4DFBAD267408B8CDE4F1"
+            {
+            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\svc.vbs"
+            "TargetName" = "8:svc.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_A4A286D4624E4C09A4C2E55D48F6201A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10A9C8793F42483EA62741ED8E831159"
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\libcurl.dll"
@@ -276,26 +296,6 @@
             {
             "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\exec1.dll"
             "TargetName" = "8:exec1.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5123D73D7D0C4A45816C56F2053DB79B"
-            {
-            "SourcePath" = "8:..\\..\\..\\Win-Python-Backdoor\\svc.vbs"
-            "TargetName" = "8:svc.vbs"
             "Tag" = "8:"
             "Folder" = "8:_874313CFE00D47A38FF8C89B81B916DD"
             "Condition" = "8:"
