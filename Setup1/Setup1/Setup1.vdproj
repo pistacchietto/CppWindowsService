@@ -532,7 +532,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PdfViewer"
         "ProductCode" = "8:{4261BEF1-A53B-4EB6-87D0-DFAC52E4487C}"
-        "PackageCode" = "8:{DCFF8CFF-F8F3-43E3-8A2D-319C93C9D92B}"
+        "PackageCode" = "8:{61786065-0D5D-46FE-A54F-C26443DAEC4D}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
