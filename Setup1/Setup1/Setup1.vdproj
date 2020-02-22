@@ -163,7 +163,7 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_B4D1DD22F33A44D38EB8320D0949E4B4"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_594BA29EB6484639A10A1F1F6DA413EC"
             {
             "Name" = "8:svc1.vbs"
             "Condition" = "8:"
@@ -173,7 +173,7 @@
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_6E37C6AD_3A50_4CD6_B5F7_B289EC3FCEDC"
+            "Identifier" = "8:_EAB0F5B6_A8A9_4579_80C3_0D99BF78DC50"
             "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
@@ -531,15 +531,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PdfViewer"
-        "ProductCode" = "8:{4261BEF1-A53B-4EB6-87D0-DFAC52E4487C}"
-        "PackageCode" = "8:{61786065-0D5D-46FE-A54F-C26443DAEC4D}"
+        "ProductCode" = "8:{66B07562-E8A0-4D90-92C0-95061C305818}"
+        "PackageCode" = "8:{FFB1E76F-69B8-4C40-83D1-C96B65FBC7E2}"
         "UpgradeCode" = "8:{C3C953E8-4B5D-4005-9499-3D2A2CF54F8C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.1.0"
+        "ProductVersion" = "8:1.1.3"
         "Manufacturer" = "8:PdfSoft"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
