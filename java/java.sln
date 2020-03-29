@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pdf Viewer", "Setup1\Setup1.vdproj", "{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Debug|x64.ActiveCfg = Debug
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Debug|x64.Build.0 = Debug
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Debug|x86.ActiveCfg = Debug
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Debug|x86.Build.0 = Debug
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Release|x64.ActiveCfg = Release
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Release|x64.Build.0 = Release
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Release|x86.ActiveCfg = Release
+		{64C8D4FF-F3F6-469B-AB3A-9D23E61707D2}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF5CE677-3006-40D9-84E2-21C15A4A58FD}
+	EndGlobalSection
+EndGlobal
