@@ -1,0 +1,6 @@
+obj\x64\Release\svc1user_win64.wixobj
+C:\Users\Francesco\source\repos\wix1\bin\x64\Release\wix1.msi
+C:\Users\Francesco\source\repos\wix1\bin\x64\Release\wix1.wixpdb
+obj\x64\Release\wix1.wixproj.BindContentsFileListnull.txt
+obj\x64\Release\wix1.wixproj.BindOutputsFileListnull.txt
+obj\x64\Release\wix1.wixproj.BindBuiltOutputsFileListnull.txt

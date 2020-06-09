@@ -1,0 +1,2 @@
+C:\Users\Francesco\source\repos\wix1\bin\x64\Release\wix1.msi
+C:\Users\Francesco\source\repos\wix1\bin\x64\Release\wix1.wixpdb
