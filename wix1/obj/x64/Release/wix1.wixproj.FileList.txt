@@ -4,3 +4,5 @@ C:\Users\Francesco\source\repos\wix1\bin\x64\Release\wix1.wixpdb
 obj\x64\Release\wix1.wixproj.BindContentsFileListnull.txt
 obj\x64\Release\wix1.wixproj.BindOutputsFileListnull.txt
 obj\x64\Release\wix1.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Users\Francesco\Documents\GitHub\CppWindowsService\wix1\bin\x64\Release\wix1.msi
+C:\Users\Francesco\Documents\GitHub\CppWindowsService\wix1\bin\x64\Release\wix1.wixpdb
