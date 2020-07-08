@@ -1,3 +1,3 @@
 C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\foto.jpg
-C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\tele.exe
+C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\foto.exe
 C:\Users\Francesco\Documents\GitHub\Win-Python-Backdoor\svc1user.vbs
